@@ -18,7 +18,7 @@ function check() {
     }
     var res = "";
     document.getElementById("selection").innerHTML = "Selected: " + race + " & " + grade;
-    if (race == "Asian" && (grade == "C" || grade != "D")) {
+    if (race == "Asian" && (grade == "C" || grade == "D")) {
         document.getElementById("selection").innerHTML += "<p>Run! Run now! Your parents are coming for you! Bring dumplings, bok choi and kimchi, find the real communism!</p>"; 
     }
     else if (race == "Asian" && (grade == "FAIL" || grade == "Z")) {
